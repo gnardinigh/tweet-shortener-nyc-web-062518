@@ -21,7 +21,8 @@ def dictionary(tweet)
   tweet_array = tweet.split(" ")
   dictionary_keys = dictionary_hash.keys
   tweet_array.each do |word|
-      puts word 
+      dictionary_keys.each do |key|
+    end
   end
 end
 
