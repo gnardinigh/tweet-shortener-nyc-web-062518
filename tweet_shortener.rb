@@ -53,6 +53,9 @@ def selective_tweet_shortener(tweet)
   end
 end
 
+tweet = ["Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
+
+
 def shortened_tweet_truncator(tweet)
   shortened_tweet = word_substituter(tweet)
   if shortened_tweet.size>140
