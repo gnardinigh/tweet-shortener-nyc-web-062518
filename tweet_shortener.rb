@@ -23,7 +23,7 @@ def dictionary(tweet)
   tweet_array.each do |word, index|
       dictionary_keys.each do |key|
         if word == key
-          word=key
+          word=dictionary_keys[key]
       end
     end
   end
