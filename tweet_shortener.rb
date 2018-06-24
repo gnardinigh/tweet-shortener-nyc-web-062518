@@ -30,7 +30,9 @@ def dictionary(tweet)
   return tweet_array
 end
 
-dictionary(tweet)
+a = dictionary(tweet)
+puts a.inspect
+
 
 
 
