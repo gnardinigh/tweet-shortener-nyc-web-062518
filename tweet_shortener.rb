@@ -28,6 +28,7 @@ end
 a=dictionary(tweet)
 
 puts a.inspect
+puts dictionary_keys.inspect
 
 
 
