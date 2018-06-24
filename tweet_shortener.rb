@@ -19,6 +19,7 @@ def dictionary(tweet)
               "and" => "&",
   }
   tweet_array = tweet.split(" ")
+  dictionary_keys = dictionary_hash.keys
   
   
 end
