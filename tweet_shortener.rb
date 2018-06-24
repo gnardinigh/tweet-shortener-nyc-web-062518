@@ -33,7 +33,7 @@ def word_subsituter(tweet)
   puts tweet_array.inspect
 end
 
-
+word_subsituter(tweet)
 
 
 
