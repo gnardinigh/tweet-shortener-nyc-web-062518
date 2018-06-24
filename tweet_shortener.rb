@@ -22,10 +22,8 @@ def dictionary(tweet)
   dictionary_keys = dictionary_hash.keys
   
           
-      end
-    end
-    end
-  end
+      
+  
 end
 
 
