@@ -36,7 +36,9 @@ def word_substituter(tweet)
   return a
 end
 
-def bulk_tweet_shortener
+def bulk_tweet_shortener(array_of_tweets)
+  
+end
 
 
 
