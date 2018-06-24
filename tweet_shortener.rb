@@ -38,7 +38,7 @@ end
 
 def bulk_tweet_shortener(array_of_tweets)
   array_of_tweets.each_with_index do |tweet,index|
-    array_of_tweets[index]
+    array_of_tweets[index] = word_substituter(tweet)
   end
 end
 
