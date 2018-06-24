@@ -24,10 +24,7 @@ def dictionary(tweet)
       dictionary.keys.each do |key|
         
       
-    end
-    end
   end
-  puts tweet_array.inspect
 end
 
 
