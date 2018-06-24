@@ -31,6 +31,7 @@ def dictionary(tweet)
 end
 
 a = dictionary(tweet)
+puts a.inspect
 
 
 
