@@ -29,7 +29,7 @@ def dictionary(tweet)
   end
 end
 
-dictionary(tweet)
+a = dictionary(tweet)
 
 
 
