@@ -27,6 +27,7 @@ def dictionary(tweet)
         end
     end
   end
+  return tweet_array
 end
 
 dictionary(tweet)
