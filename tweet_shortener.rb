@@ -58,7 +58,7 @@ tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the b
 
 def shortened_tweet_truncator(tweet)
   shortened_tweet = word_substituter(tweet)
-  if shortened_tweet.size<140
+  if shortened_tweet.size>140
     puts shortened_tweet.size
   end
 end
