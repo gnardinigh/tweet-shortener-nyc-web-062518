@@ -24,7 +24,9 @@ def word_subsituter(tweet)
   counter=0
   tweet_array.each do |word|
     dictionary_hash.each do |key,value|
-      
+      if word==key
+        tweet_array[counter] = value
+     end
     end
     counter+=1
   end 
