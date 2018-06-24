@@ -43,7 +43,6 @@ def bulk_tweet_shortener(array_of_tweets)
     array_of_tweets[index] = word_substituter(this_tweet)
     puts array_of_tweets[index]
   end
-  
 end
 
 
