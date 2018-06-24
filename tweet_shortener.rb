@@ -39,6 +39,7 @@ end
 def bulk_tweet_shortener(array_of_tweets)
   array_of_tweets.each_with_index do |tweet,index|
     this_tweet = array_of_tweets[index]
+    put this_tweet
   end
   
 end
