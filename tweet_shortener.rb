@@ -22,7 +22,7 @@ def dictionary(tweet)
   dictionary_keys = dictionary_hash.keys
   tweet_array.each_with_index do |word,index|
       dictionary_keys.each do |key|
-        if word == key 
+        if word.downcase == key 
           tweet_array[index] = dictionary_hash[key]
         end
     end
