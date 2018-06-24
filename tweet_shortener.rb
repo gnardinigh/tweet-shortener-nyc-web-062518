@@ -26,7 +26,6 @@ def dictionary(tweet)
       
     end
   end
-  tweet_array
 end
 
 
