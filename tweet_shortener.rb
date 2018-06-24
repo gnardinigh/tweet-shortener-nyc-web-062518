@@ -61,6 +61,7 @@ def shortened_tweet_truncator(tweet)
   if shortened_tweet.size>140
     shortened_tweet = shortened_tweet.slice!(0..139)
     shortened_tweet[137..139] = "."
+    puts shortened_tweet
   end
 end
 
