@@ -31,7 +31,7 @@ def dictionary(tweet)
   return reassembled_tweet
 end
 
-def word_subsituter(tweet)
+def word_substituter(tweet)
   a = dictionary(tweet)
   return a
 end
