@@ -33,6 +33,7 @@ end
 
 def word_subsituter(tweet)
   a = dictionary(tweet)
+  return a
 end
 
 
