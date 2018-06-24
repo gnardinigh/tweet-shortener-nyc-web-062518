@@ -36,7 +36,7 @@ def word_substituter(tweet)
   return a
 end
 
-
+def bulk_tweet_shortener
 
 
 
