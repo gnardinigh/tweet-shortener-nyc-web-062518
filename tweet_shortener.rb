@@ -31,8 +31,7 @@ def dictionary(tweet)
   return reassembled_tweet
 end
 
-a = dictionary(tweet)
-puts a.inspect
+
 
 
 
