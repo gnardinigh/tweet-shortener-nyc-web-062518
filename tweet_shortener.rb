@@ -21,6 +21,7 @@ tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the b
 
 def word_subsituter(tweet)
   tweet_array = tweet.split(" ")
+  counter=0
   tweet_array.each do |word|
     dictionary_hash.each do |key,value|
       
