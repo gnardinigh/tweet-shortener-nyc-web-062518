@@ -45,7 +45,6 @@ def bulk_tweet_shortener(array_of_tweets)
 end
 
 
-bulk_tweet_shortener(array_of_tweets)
 
 
 
