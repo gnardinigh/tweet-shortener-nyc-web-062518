@@ -20,10 +20,7 @@ def dictionary(tweet)
   }
   tweet_array = tweet.split(" ")
   dictionary_keys = dictionary_hash.keys
-  tweet_array.each do |word|
-      dictionary.keys.each do |key|
-        if word == key
-          tweet_array
+  
           
       end
     end
