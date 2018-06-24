@@ -21,10 +21,9 @@ def dictionary(tweet)
   tweet_array = tweet.split(" ")
   dictionary_keys = dictionary_hash.keys
   tweet_array.each do |word|
-    counter=0
-    while counter<dictionary_keys.size
-    
-    
+      dictionary.keys.each do |key|
+        
+    end
     end
   end
 end
