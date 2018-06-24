@@ -41,7 +41,7 @@ def bulk_tweet_shortener(array_of_tweets)
     this_tweet = array_of_tweets[index]
     array_of_tweets[index] = word_substituter(this_tweet)
   end
-  
+  return array_of_tweets
 end
 
 
