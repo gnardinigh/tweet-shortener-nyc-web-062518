@@ -28,7 +28,7 @@ def dictionary(tweet)
     end
   end
   reassembled_tweet = tweet_array.join(" ")
-  return tweet_array
+  return reassembled_tweet
 end
 
 a = dictionary(tweet)
