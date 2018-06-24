@@ -28,6 +28,7 @@ def dictionary(tweet)
     end
     end
   end
+  puts tweet_array.inspect
 end
 
 
