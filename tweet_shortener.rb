@@ -24,7 +24,6 @@ def dictionary(tweet)
       dictionary_keys.each do |key|
         if word == key
           word=key
-          puts key
       end
     end
   end
