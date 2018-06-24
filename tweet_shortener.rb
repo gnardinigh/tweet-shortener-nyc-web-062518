@@ -22,7 +22,8 @@ def dictionary(tweet)
   dictionary_keys = dictionary_hash.keys
   tweet_array.each do |word|
       dictionary_keys.each do |key|
-        puts word+key
+        if word == key 
+          puts "yay" + dictionary_keys[key]
       
     end
   end
