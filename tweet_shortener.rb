@@ -18,7 +18,7 @@ def dictionary(tweet)
               "at" => "@",
               "and" => "&",
   }
-  return tweet_array = tweet.split(" ")
+  tweet_array = tweet.split(" ")
   dictionary_keys = dictionary_hash.keys
   
   
