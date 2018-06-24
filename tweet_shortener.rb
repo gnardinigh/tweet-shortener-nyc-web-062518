@@ -69,7 +69,7 @@ end
 
 
 
-shortened_tweet_truncator(tweet)
+  
 
 
 
