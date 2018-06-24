@@ -50,7 +50,7 @@ def selective_tweet_shortener(tweet)
     return tweet
   else
     return word_substituter(tweet)
-end
+  end
 end
 
 
