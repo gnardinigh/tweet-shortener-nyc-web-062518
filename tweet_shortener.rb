@@ -23,7 +23,7 @@ def dictionary(tweet)
   tweet_array.each_with_index do |word|
       dictionary_keys.each do |key|
         
-      end
+      
     end
   end
   tweet_array
