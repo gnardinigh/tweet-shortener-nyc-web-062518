@@ -25,7 +25,7 @@ def dictionary(tweet)
   end
 end
 
-
+dictionary(tweet)
 
 
 
