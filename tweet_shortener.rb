@@ -24,7 +24,7 @@ def dictionary(tweet)
       dictionary_keys.each do |key|
         if word == key 
           puts "yay" + dictionary_keys[key]
-      
+        end
     end
   end
 end
