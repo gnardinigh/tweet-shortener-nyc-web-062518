@@ -32,7 +32,7 @@ def dictionary(tweet)
 end
 
 def word_subsituter(tweet)
-  
+  a = dictionary(tweet)
 end
 
 
